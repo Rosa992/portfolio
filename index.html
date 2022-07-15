@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Portfolio</title>
 <!-- ***********************  Fonts  *********************** -->
@@ -27,30 +27,32 @@
 
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section class="projects">
-<div class="content-wrap">
+<div class="content-wrap divider">
         <h2>Featured Projects</h2>
         <p>View selected projects below. More information can be found at <a class="btn" href="http://christinatruong.com">christinatruong.com</a>.</p>
 
         <!-- Copy the whole <section> block to add more projects. -->
-        <section>
-
+        <section class="project-item">
+<img src="images/thumbnail-happy-prance.png" alt="happy prance">
           <h3>Happy Prance</h3>
-          <img src="thumbnail-happy-prance.png" alt="happy prance">
+
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a class="btn" href="https://rosa992.github.io/happyprance/" target="_blank">View project / case study</a>
         </section>
 
-        <section>
+        <section class="project-item">
+          <img class="dice" src="images/thumbnail-dice-game.png" alt="dice game">
           <h3>Dice Game</h3>
-          <img class="dice" src="thumbnail-dice-game.png" alt="dice game">
+
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a class="btn" href="https://rosa992.github.io/dicegame/" target="_blank">View project / case study</a>
         </section>
 
 
-        <section>
+        <section class="project-item">
+<img src="images/thumbnail-client-list.png" alt="description of image">
           <h3>Client List</h3>
-          <img src="thumbnail-client-list.png" alt="description of image">
+
           <p>Summary or description of the project and/or your role in it. Add as many paragraphs as you need.</p>
           <a class="btn" href="https://rosa992.github.io/clientList/" target="_blank">View project / case study</a>
         </section>
@@ -62,15 +64,21 @@
 
 
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-      <section>
-        <div class="content-wrap">
+      <section class="education">
+        <div class="content-wrap item-details">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
         <section>
           <h3>Algonquin College - Ottawa</h3>
           <p>Computer Programming, 2021 - present</p>
-          <p>Compuet Programming Diploma in progress.</p>
+          <p>Computer Programming Diploma in progress.</p>
+        </section>
+
+        <section>
+          <h3>Algonquin College - Ottawa</h3>
+          <p>Veterinary Assistant Program, 2013</p>
+          <p>Certificate of Veterinary Assisting.</p>
         </section>
         <!-- End of School block. -->
         <div>
@@ -82,7 +90,7 @@
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
+        <ul class="contact-list">
           <li><a href="mailto:email@example.com">email@example.com</a></li>
           <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li>
           <li><a href="https://github.com/Rosa992" target="_blank">GitHub</a></li>
